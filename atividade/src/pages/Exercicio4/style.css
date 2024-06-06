@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+}
+
+.Exercicio4{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.texto{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
