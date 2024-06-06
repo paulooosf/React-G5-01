@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './style.css';
 
 function Exercicio1() {
     const [nome, setNome] = useState('');
@@ -50,7 +51,7 @@ function Exercicio1() {
             )}
             {!enviado && (
                 <form onSubmit={handleSubmit}>
-                    <div className="row">
+                    <div className="informacoes">
                         <div className="col-md-6">
                             <label htmlFor="nome">Nome:</label>
                             <input type="text" className="my-3 form-control" id="nome" value={nome} onChange={(e) => setNome(e.target.value)}
