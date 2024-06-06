@@ -4,8 +4,33 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #3b9595;
 }
 
 .lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: left;
+    background-color: #FFA07A;
+    border: 2px solid #FFA07A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
 }
+
+.lista li {
+    background-color: #FFA07A;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.lista li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+

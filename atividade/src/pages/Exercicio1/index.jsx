@@ -40,6 +40,9 @@ useEffect(() => {
     return (
         <div className='container'>
             <h1>Cadastro de Pessoas</h1>
+            {enviado && (
+                <div className="alert alert-primary" role="alert">Enviado com sucesso, segue a lista de cadastros:</div>
+            )}
             {pessoas.length > 0 && (
                 <ul className="list-group my-3">
                     {pessoas.map((pessoa) => (
@@ -66,9 +69,6 @@ useEffect(() => {
                         </div>
                     </div>
                 </form>
-            )}
-            {enviado && (
-                <div className="alert alert-primary" role="alert">Enviado com sucesso</div>
             )}
         </div>
     );

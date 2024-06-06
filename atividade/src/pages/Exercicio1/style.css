@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #3b9595;
 }
 
 .container {
@@ -14,6 +15,7 @@ body {
 
 .container h1 {
     margin-bottom: 20px;
+    color: black;
 }
 
 .container form {
@@ -21,9 +23,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f5f5f5;
+    border: 1px solid #FFA07A;
+    border-radius: 20px;
+    background-color: #FFA07A;
 }
 
 .container form .form-group {
@@ -33,6 +35,7 @@ body {
 .container form .form-group label {
     margin-bottom: 5px;
     display: block;
+    color: black;
 }
 
 .container form .form-group input {
@@ -40,6 +43,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    color: black;
 }
 
 .container form button {
@@ -49,28 +53,37 @@ body {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
 }
 
 .container ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 .container ul li {
     padding: 10px;
     border-bottom: 1px solid #ccc;
+    background-color: #FFA07A;
+    color: black;
 }
 
 .container .alert {
     margin-top: 20px;
     padding: 10px;
     border-radius: 3px;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #388e3c;
+    color: black;
+    transition: all 0.3s ease-in-out;
 }
 
-
+.container .alert:hover {
+    background-color: #388e3c;
+    transform: scale(1.1);
+}
