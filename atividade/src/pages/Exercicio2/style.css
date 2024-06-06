@@ -44,6 +44,11 @@
     margin-top: 20px;
     color: black;
     width: 120px;
+    transition: transform 0.3s;
+}
+
+.barra button:hover {
+    transform: translateY(-3px);
 }
 
 .barra ul {
