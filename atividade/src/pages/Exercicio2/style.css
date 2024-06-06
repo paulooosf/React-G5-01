@@ -1,0 +1,62 @@
+.barra {  
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.barra h2 {
+    padding-top: 40px;
+    color: black;
+}
+
+.barra nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.barra form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.barra input {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid rgb(250, 248, 248) ;
+    border-radius: 4px;
+    background-color: rgb(250, 248, 248);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.barra button {
+    background-color:  #007bff;
+    margin-top: 20px;
+    color: black;
+    width: 120px;
+}
+
+.barra ul {
+    list-style: none;
+    padding: 7px;
+    margin: 30px;
+    border: 1px solid #FFA07A;
+    border-radius: 5px;
+    background-color: #FFA07A;
+}
+
+.barra ul li {
+    color: black;
+    font: 10px;
+    font-weight: bold;
+}
