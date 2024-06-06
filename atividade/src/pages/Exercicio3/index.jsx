@@ -17,10 +17,6 @@ function Exercicio3() {
     setMarcaSelecionada(event.target.value);
   };
 
-  const handleFiltroChange = (event) => {
-    setFiltro(event.target.value);
-  };
-
   const marcasFiltradas = carros
     .map(carro => carro.marca)
     .filter((marca, index, self) => self.indexOf(marca) === index)

@@ -6,6 +6,7 @@ header {
     color: #fff;
     align-items: center;
     justify-content: space-between;
+    padding: 0.7rem;
 }
 
 h2 {
@@ -20,4 +21,8 @@ header a {
     font-size: 20px;
     color: #fff;
     margin-left: 20px;
+}
+
+header a::hover {
+    text-shadow: 2px 2px 5px cyan;
 }
