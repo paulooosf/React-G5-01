@@ -26,7 +26,7 @@ function Exercicio1() {
         }
     };
 
-  useEffect(() => {
+useEffect(() => {
         const fetchPessoas = async () => {
             const response = await axios.get('https://665fa6f55425580055b05a8d.mockapi.io/pessoas');
             setPessoas(response.data);
@@ -39,7 +39,7 @@ function Exercicio1() {
 
     return (
         <div className='container'>
-            <h1>Cadastro de alunos</h1>
+            <h1>Cadastro de Pessoas</h1>
             {pessoas.length > 0 && (
                 <ul className="list-group my-3">
                     {pessoas.map((pessoa) => (
